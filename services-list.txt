@@ -1,0 +1,286 @@
+# ============================================================
+#  Список сервисов: Telegram, WhatsApp, Instagram, Supercell
+#  (Hay Day, Clash of Clans, Brawl Stars и др.), ChatGPT (OpenAI), TikTok
+#
+#  Формат: домен на строку или подсеть IPv4 (CIDR).
+#  Строки, начинающиеся с #, — комментарии.
+#  Дата сборки: 2026-11-24
+#
+#  Источники:
+#   - Telegram: https://core.telegram.org/resources/cidr.txt
+#   - IP: BGP-анонсы AS32934 (Meta), AS138699 (TikTok),
+#     AS212916 (Supercell), AS401518 (OpenAI)
+#   - Домены: v2fly/domain-list-community + справочники OpenAI
+# ============================================================
+
+
+# ==================== TELEGRAM ====================
+# --- домены ---
+telegram.org
+telegram.me
+telegram.dog
+telegram.space
+t.me
+tx.me
+telegra.ph
+telegram-cdn.org
+cdn-telegram.org
+telesco.pe
+tdesktop.com
+tg.dev
+fragment.com
+comments.app
+contest.com
+graph.org
+quiz.directory
+telega.one
+usercontent.dev
+# TON / Telegram Wallet
+ton.org
+toncenter.com
+
+# --- IPv4 (официальные диапазоны Telegram) ---
+91.108.4.0/22
+91.108.8.0/22
+91.108.12.0/22
+91.108.16.0/22
+91.108.20.0/22
+91.108.56.0/22
+91.105.192.0/23
+149.154.160.0/20
+185.76.151.0/24
+
+
+# ==================== WHATSAPP ====================
+# --- домены ---
+whatsapp.com
+whatsapp.net
+whatsapp.org
+whatsappbrand.com
+wa.me
+whatsapp.cc
+whatsapp.info
+whatsapp.tv
+whatsapp-plus.info
+whatsapp-plus.me
+whatsapp-plus.net
+
+# --- ключевые хосты ---
+web.whatsapp.com
+api.whatsapp.com
+biz.whatsapp.com
+graph.whatsapp.com
+graph.whatsapp.net
+g.whatsapp.net
+mmg.whatsapp.net
+cdn.whatsapp.net
+static.whatsapp.net
+pps.whatsapp.net
+v.whatsapp.net
+fna.whatsapp.net
+crashlogs.whatsapp.net
+
+# --- CDN Meta (медиа WhatsApp/Instagram) ---
+fbcdn.net
+
+
+# ==================== INSTAGRAM ====================
+# --- домены ---
+instagram.com
+instagr.am
+ig.me
+igcdn.com
+cdninstagram.com
+igtv.com
+instagram-brand.com
+instagram-engineering.com
+instagram-press.com
+instagram-press.net
+instagram-help.com
+instagrampartners.com
+graph.instagram.com
+
+# --- API Meta (вход через Facebook, бизнес-функции) ---
+graph.facebook.com
+
+
+# ==================== SUPERCELL (Hay Day, Clash of Clans,
+# ==================== Clash Royale, Brawl Stars, Boom Beach,
+# ==================== Squad Busters, Clash Mini) ====================
+supercell.com
+supercell.net
+supercellgames.com
+supercellid.com
+supercellstore.com
+supercellcreators.com
+hayday.com
+haydaygame.com
+clash.com
+clashofclans.com
+clashroyale.com
+clashroyaleapp.com
+clashmini.com
+brawlstars.com
+brawlstarsgame.com
+boombeach.com
+squadbusters.com
+mo.co
+supr.cl
+gamesfirsthelsinki.com
+seeurlpcl.com
+supercell.helpshift.com
+supercell.zendesk.com
+
+
+# ==================== CHATGPT / OPENAI ====================
+# --- домены ---
+chatgpt.com
+chat.com
+chatgpt.site
+openai.com
+openai.org
+oaistatic.com
+oaiusercontent.com
+oaistatsig.com
+sora.com
+crixet.com
+
+# --- CDN / API / хранилище ---
+openai.com.cdn.cloudflare.net
+openaiapi-site.azureedge.net
+openaiassets.blob.core.windows.net
+openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+openaicom.imgix.net
+openaicomproductionae4b.blob.core.windows.net
+production-openaicom-storage.azureedge.net
+
+# --- голосовой режим (LiveKit) ---
+chatgpt.livekit.cloud
+host.livekit.cloud
+turn.livekit.cloud
+
+
+# ==================== TIKTOK ====================
+# --- домены ---
+tiktok.com
+tiktokv.com
+tiktokv.eu
+tiktokv.us
+tiktokvapp.com
+tiktokw.eu
+tiktokw.us
+tiktokcdn.com
+tiktokcdn-us.com
+tiktokcdn-eu.com
+tiktokeu-cdn.com
+tiktokrow-cdn.com
+tiktokd.net
+tiktokd.org
+tiktok-row.net
+tiktokstaticb.com
+tiktokglobalshopv.com
+tiktokshop.com
+tiktokminis.us
+tiktok-minis.com
+tik-tokapi.com
+ttwstatic.com
+ttcdn-us.com
+ttlivecdn.com
+ttoverseaus.net
+muscdn.com
+musical.ly
+bytedapm.com
+
+# --- CDN-хосты (Akamai/EdgeSuite) ---
+tiktokcdn.com.akamaized.net
+tiktokcdn.com.edgesuite.net
+tiktokcdn-us.com.edgesuite.net
+tiktokv.com.edgesuite.net
+tiktokv.com.edgekey.net
+p16-tiktokcdn-com.akamaized.net
+
+
+# ==================== IPv4-ДИАПАЗОНЫ ====================
+
+# --- Meta: Instagram + WhatsApp (AS32934) ---
+31.13.24.0/21
+31.13.64.0/18
+45.64.40.0/22
+57.141.0.0/24
+57.141.2.0/23
+57.141.4.0/23
+57.141.6.0/24
+57.141.8.0/24
+57.141.10.0/24
+57.141.12.0/23
+57.141.14.0/24
+57.141.16.0/22
+57.141.20.0/24
+57.141.22.0/24
+57.141.24.0/24
+57.144.0.0/14
+66.220.144.0/20
+69.63.176.0/20
+69.171.224.0/19
+74.119.76.0/22
+102.132.96.0/20
+103.4.96.0/22
+129.134.0.0/17
+157.240.0.0/17
+157.240.192.0/18
+163.70.128.0/17
+163.77.132.0/23
+163.77.136.0/23
+163.77.160.0/20
+173.252.64.0/18
+179.60.192.0/22
+185.60.216.0/22
+185.89.216.0/22
+204.15.20.0/22
+
+# --- TikTok (AS138699) ---
+71.18.247.0/24
+71.18.248.0/22
+71.18.252.0/23
+71.18.255.0/24
+101.45.192.0/22
+101.45.198.0/24
+101.45.200.0/23
+101.45.203.0/24
+101.45.204.0/22
+101.45.248.0/22
+103.136.220.0/23
+103.136.223.0/24
+
+# --- Supercell (AS212916) ---
+5.180.72.0/22
+
+# --- OpenAI (AS401518) ---
+48.101.196.0/23
+199.47.142.0/23
+
+
+# ==================== IPv6 ====================
+# Если панель/клиент поддерживает IPv6 — уберите "#" в начале строк.
+#
+# Telegram:
+# 2001:b28:f23c::/48
+# 2001:b28:f23d::/48
+# 2001:b28:f23f::/48
+# 2001:67c:4e8::/48
+# 2a0a:f280::/32
+#
+# Meta (Instagram/WhatsApp):
+# 2620:0:1c00::/40
+# 2a03:2880::/32
+#
+# TikTok:
+# 2404:9dc0:c002::/48
+# 2404:9dc0:cd01::/48
+# 2404:9dc0:cd03::/48
+# 2404:9dc0:cd04::/46
+#
+# Supercell:
+# 2a09:fa40::/40
+
+MB PDR
